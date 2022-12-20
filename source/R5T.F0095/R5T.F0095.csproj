@@ -14,4 +14,12 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/SafetyCone/R5T.F0095.git</RepositoryUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.F0091\source\R5T.F0091\R5T.F0091.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Files\R5T.F0095\WinFormResxTemplate.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
