@@ -13,7 +13,7 @@ namespace R5T.F0095
         {
             var templateFilePath = FilePaths.Instance.WinFormsResxTemplate;
 
-            F0000.FileSystemOperator.Instance.CopyFile(
+            F0000.FileSystemOperator.Instance.Copy_File(
                 templateFilePath,
                 resxFilePath);
         }
